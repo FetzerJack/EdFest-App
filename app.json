@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "EdFest",
+    "slug": "EdFest-App",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "packagerOpts": {
+      "sourceExts": [
+        "js",
+        "jsx",
+        "svg",
+        "svgx",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    },
+    "android": {
+      "package": "com.HCCodeClub.EdFestApp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.HCCodeClub.EdFestApp",
+      "supportsTablet": false
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "primaryColor": "#6d76c0",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
