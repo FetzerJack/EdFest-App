@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { createBottomTabNavigator, BottomTabBar } from 'react-navigation';
 import posed from "react-native-pose";
-
+import Colors from '../constants/Colors'
 import TabBarIcon from '../components/TabBarIcon';
 import PresentersScreen from '../screens/PresentersScreen';
 import EventsScreen from '../screens/EventsScreen';
@@ -34,7 +34,7 @@ const S = StyleSheet.create({
   spotLight: {
     width: tabWidth,
     height: "100%",
-    backgroundColor: "rgba(128,128,255,0.2)",
+    backgroundColor: "rgba(40, 102, 204, 0.2)",
     borderRadius: 8
   },
   tabText: {

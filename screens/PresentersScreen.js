@@ -14,16 +14,59 @@ import Colors from '../constants/Colors';
 export default function PresentersScreen() {
   return (
     <ScrollView style={styles.container}>
-        <View style={styles.titleContainer}>
-            <Text style={styles.titleText}>
-                
-            </Text>
-        </View>
-        <View style={styles.bodyContainer}>
-            <Text style={styles.bodyText}>
-            
-            </Text>
-        </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Presenters
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Jane Armellino
+        </Text>
+        <Text style={styles.descriptionText}>
+          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Jane Armellino
+        </Text>
+        <Text style={styles.descriptionText}>
+          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Jane Armellino
+        </Text>
+        <Text style={styles.descriptionText}>
+          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Jane Armellino
+        </Text>
+        <Text style={styles.descriptionText}>
+          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Jane Armellino
+        </Text>
+        <Text style={styles.descriptionText}>
+          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer, {marginBottom: 5}}>
+        <Text style={styles.nameText}>
+          Jane Armellino (KEEP AS BOTTOM)
+        </Text>
+        <Text style={styles.descriptionText}>
+          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+        </Text>
+      </View>
     </ScrollView>
   );
 }
@@ -37,28 +80,28 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 50,
+    backgroundColor: Colors.background,
   },
-// Container of the title (Purple box)
-  titleContainer: {
+  // Container of the title (Purple box)
+  presenterContainer: {
     padding: 15,
     margin: 15,
     fontSize: 20,
     backgroundColor: Colors.primary,
     lineHeight: 24,
-    textAlign: 'center',
     borderRadius: 6,
   },
   // Text of the title
-  titleText: {
+  nameText: {
     textAlign: 'center',
-    color: '#ffffff',
+    color: 'white',
     fontSize: 25,
+    marginBottom: 10,
   },
-  // Container of the body
-  bodyContainer: {
-    padding: 15,
-    margin: 15,
+  // Text of the title
+  descriptionText: {
+    textAlign: 'center',
+    color: 'white',
     fontSize: 15,
-    lineHeight: 24,
   },
 });
