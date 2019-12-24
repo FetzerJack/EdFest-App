@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     padding: 15,
     margin: 15,
     fontSize: 20,
-    backgroundColor: Colors.primary,
+    backgroundColor: Colors.bubbleBackground,
     lineHeight: 24,
     borderRadius: 6,
   },
