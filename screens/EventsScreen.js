@@ -31,7 +31,7 @@ export default function EventsScreen() {
       </View>
       <View style={styles.presenterContainer}>
         <Text style={styles.nameText}>
-          Building Apps for the Commumity (GO COMMUNISM)
+          Building Apps for the Community
         </Text>
         <View style={styles.hairLine} />
         <Text style={styles.presenterText}>

@@ -29,6 +29,14 @@ export default function PresentersScreen() {
       </View>
       <View style={styles.presenterContainer}>
         <Text style={styles.nameText}>
+          Ryan Saperstein
+        </Text>
+        <Text style={styles.descriptionText}>
+          Ryan is a Hunterdon Central Class of 2021 student who works on programming projects with the Code Club and Hunterdon Central Robotics Team. He has taken many computer science classes and is the Co-President of the Code Club at the School and the Head of the Strategy Subteam on Robotics. He also works at Mathnasium of Flemington as a tutor, and has volunteered as a mentor of a FIRST LEGO League Team and a FIRST LEGO League Jr. Team.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
           Jack Fetzer
         </Text>
         <Text style={styles.descriptionText}>
@@ -37,26 +45,10 @@ export default function PresentersScreen() {
       </View>
       <View style={styles.presenterContainer}>
         <Text style={styles.nameText}>
-          Jane Armellino
+          Tyler Bartholomew
         </Text>
         <Text style={styles.descriptionText}>
-          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
-        </Text>
-      </View>
-      <View style={styles.presenterContainer}>
-        <Text style={styles.nameText}>
-          Jane Armellino
-        </Text>
-        <Text style={styles.descriptionText}>
-          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
-        </Text>
-      </View>
-      <View style={styles.presenterContainer}>
-        <Text style={styles.nameText}>
-          Jane Armellino
-        </Text>
-        <Text style={styles.descriptionText}>
-          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+          Tyler is a Hunterdon Central Class of 2021 student and is a newer member of the Code Club. He actively works on developing the Code Club website.
         </Text>
       </View>
       <View style={styles.presenterContainer, {marginBottom: 45}}>
