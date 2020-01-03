@@ -16,13 +16,30 @@ import Colors from '../constants/Colors'
 export default function EventsScreen() {
   return (
     <ScrollView style={styles.container}>
-        <View style={styles.presenterContainer}>
+      <View style={styles.presenterContainer}>
         <Text style={styles.nameText}>
-          Jane Armellino
+          Fun with Google Scripts
+        </Text>
+        <View style={styles.hairLine} />
+        <Text style={styles.presenterText}>
+          Presenter: Jane Armellino
         </Text>
         <View style={styles.hairLine} />
         <Text style={styles.descriptionText}>
-          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+          Learn about using Google Scripts to forward your ability to make good use of the Google products provided at your educational instution.
+        </Text>
+      </View>
+      <View style={styles.presenterContainer}>
+        <Text style={styles.nameText}>
+          Building Apps for the Commumity (GO COMMUNISM)
+        </Text>
+        <View style={styles.hairLine} />
+        <Text style={styles.presenterText}>
+          Presenter: Jack Fetzer, Ryan Saperstein, Tyler Bartholomew
+        </Text>
+        <View style={styles.hairLine} />
+        <Text style={styles.descriptionText}>
+          The Hunterdon Central Code Club leadership presents how they built and deployed several apps for local services while starting with almost no knowledge on app development. 
         </Text>
       </View>
     </ScrollView>
@@ -70,4 +87,9 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 15,
   },
+  presenterText: {
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 20
+  }
 });

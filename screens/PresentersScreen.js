@@ -29,10 +29,10 @@ export default function PresentersScreen() {
       </View>
       <View style={styles.presenterContainer}>
         <Text style={styles.nameText}>
-          Jane Armellino
+          Jack Fetzer
         </Text>
         <Text style={styles.descriptionText}>
-          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
+          Jack is a Hunterdon Central Class of 2021 student who works actively works on programming projects with the code club and other groups. He has taken many computer science classes while being Co-President of the Code Club at the school. After school, he works as the lead student technician at the IS Department at Hunterdon Central.
         </Text>
       </View>
       <View style={styles.presenterContainer}>
@@ -59,13 +59,7 @@ export default function PresentersScreen() {
           Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
         </Text>
       </View>
-      <View style={styles.presenterContainer, {marginBottom: 5}}>
-        <Text style={styles.nameText}>
-          Jane Armellino (KEEP AS BOTTOM)
-        </Text>
-        <Text style={styles.descriptionText}>
-          Not only is she a world class programmer, a leader of worst, janky, back alley programmers who are better at not putting in comments than actually writing code, but she also is considered a "Big Cheese" now at her job.
-        </Text>
+      <View style={styles.presenterContainer, {marginBottom: 45}}>
       </View>
     </ScrollView>
   );
